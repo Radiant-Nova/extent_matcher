@@ -1,6 +1,6 @@
 # Extent Matcher
 
-A QGIS plugin for aligning raster extent, resolution, and CRS to a reference raster.
+A QGIS plugin for matching raster extent, resolution, and CRS to a reference raster (Simple and made easy).
 
 ## Features
 
