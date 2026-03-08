@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/extent_matcher" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
