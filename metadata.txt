@@ -13,7 +13,7 @@ email=rnrfsn@gmail.com
 about=it matches your raster's extent, dimension, and CRS
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/Radiant-Nova/extent_matcher
 # End of mandatory metadata
 
 # Recommended items:
