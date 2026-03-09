@@ -219,7 +219,7 @@ class extenstmatcher:
                 if not output_path:
                     print("Please choose an output file.")
                     return
-                
+
                 target_extent = target_layer.extent()
                 target_crs = target_layer.crs()
                 target_res_x = target_layer.rasterUnitsPerPixelX()
@@ -229,7 +229,6 @@ class extenstmatcher:
                 print("Target CRS:", target_crs.authid())
                 print("Target resolution:", target_res_x, target_res_y)
 
-                orig_extent = original_layer.extent()
                 target_extent = target_layer.extent()
 
                 final_extent = target_layer.extent()
@@ -263,4 +262,3 @@ class extenstmatcher:
                 self.iface.addRasterLayer(output_path, layer_name)
 
                 self.iface.messageBar().pushInfo("Extent Matcher", "Processing complete!")
-                
